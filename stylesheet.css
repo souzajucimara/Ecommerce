@@ -1,0 +1,37 @@
+body {
+    background-image: url('https://th.bing.com/th/id/R.7f59639dc549b8185b6a17c73db0a0e4?rik=bWzXnJSLi2Usng&pid=ImgRaw&r=0');
+    background-color: rgba(0, 0, 0, 0.877);
+    color:rgb(3, 2, 2);
+    font-family: 'times new roman';
+} 
+
+h1 {
+   font-family: 'vladimir script', pacifico; 
+}  
+
+.jumbotron {
+    margin-bottom: 0;
+    background-color:#a71010d5;   
+    color:rgba(2, 2, 1, 0.801);
+}  
+
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+
+.panel-heading {   
+    text-align: center;
+    background-color: #a8a7a7ef;    
+}
+
+.panel-body {
+    background-color: #a8a7a7ef;
+}
+
+.panel-footer {
+    text-align: justify;
+    background-color: #a8a7a7ef;
+}
+
+
