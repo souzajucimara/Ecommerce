@@ -8,23 +8,30 @@
     <title>Login</title>
 </head>
 <body>
+<!-- Formulário -->
    <div class="form-bg">
       <div class="container">
           <div class="row">
               <div class="col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6">
                   <div class="form-container">
                       <form class="form-horizontal">
+                            <!-- Título -->
                           <h3 class="title">Login</h3>
+                            <!-- Campo email -->
                           <div class="form-group">
                               <span class="input-icon"><i class="fa fa-user"></i></span>
-                              <input class="form-control" type="email" placeholder="Email">
+                              <input id="form-email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="O campo 'e-mail' é obrigatório."> 
                           </div>
+                            <!-- Campo senha -->
                           <div class="form-group">
                               <span class="input-icon"><i class="fa fa-lock"></i></span>
-                              <input class="form-control" type="password" placeholder="Senha">
+                              <input id="form-control" type="password" name="password" class="form-control" placeholder="Password" required="required" data-error="O campo 'senha' é obrigatório."> 
                           </div>
+                          <!-- Botão entrar -->
                           <button class="btn signin">Entrar</button>
+                          <!-- Esqueci minha senha -->
                           <span class="forgot-pass"><a href="#">Esqueci minha senha</a></span>
+                          <!-- Criar conta -->
                           <span class="register"><a href="#">Criar conta</a></span>
                       </form>
                   </div>
@@ -32,5 +39,6 @@
           </div>
       </div>
   </div>
+  <script src="js/login.js"></script>
 </body>
 </html>
