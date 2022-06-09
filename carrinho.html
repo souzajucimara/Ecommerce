@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="carrinho.css">
     <title>Carrinho</title>
 </head>
+<!-- Lado esquerdo -->
     <div class="card">
         <div class="row">
             <div class="col-md-8 cart">
@@ -15,64 +20,82 @@
                         <div class="col">
                             <h4><b>Carrinho de compras</b></h4>
                         </div>
+                        <!-- Simulação de itens -->
                         <div class="col align-self-center text-right text-muted">3 itens</div>
                     </div>
                 </div>
                 <div class="row border-top border-bottom">
                     <div class="row main align-items-center">
+                        <!-- Imagem do produto -->
                         <div class="col-2"><img class="img-fluid" src="img2.jpg"></div>
                         <div class="col">
+                            <!-- Descrição -->
                             <div class="row text-muted">Cama Lucca Capitonê</div>
                             <div class="row">Madeira Maciça Design Clássico</div>
                         </div>
+                        <!-- Quantidade -->
                         <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
                         <div class="col">R$ 9.500,00 <span class="close">&#10005;</span></div>
                     </div>
                 </div>
+                <!-- Imagem do produto -->
                 <div class="row">
                     <div class="row main align-items-center">
                         <div class="col-2"><img class="img-fluid" src="img7.jpg"></div>
                         <div class="col">
+                            <!-- Descrição -->
                             <div class="row text-muted">Cômoda Arca Luzia</div>
                             <div class="row">Madeira Maciça Design Clássico</div>
                         </div>
+                        <!-- Quantidade -->
                         <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
                         <div class="col">R$ 5.060,46 <span class="close">&#10005;</span></div>
                     </div>
                 </div>
                 <div class="row border-top border-bottom">
                     <div class="row main align-items-center">
+                        <!-- Imagem do produto -->
                         <div class="col-2"><img class="img-fluid" src="img3.png"></div>
                         <div class="col">
+                            <!-- Descrição -->
                             <div class="row text-muted"></div>
                             <div class="row">Sofá Lucca 3 Lugares</div>
                             <div class="row">Madeira Maciça Design Clássico</div>
                         </div>
+                        <!-- Quantidade -->
                         <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
                         <div class="col">R$ 8.800,10 <span class="close">&#10005;</span></div>
                     </div>
                 </div>
+                <!-- Voltar para o início -->
                 <div class="back-to-shop"><a href="#">&leftarrow;</a><span class="text-muted">Continuar comprando</span></div>
             </div>
+            <!-- Lado direito -->
             <div class="col-md-4 summary">
                 <div>
                     <h5><b>Resumo</b></h5>
                 </div>
                 <hr>
                 <div class="row">
+                    <!-- Itens -->
                     <div class="col">ITENS 3</div>
+                    <!-- Valor dos produtos -->
                     <div class="col text-right">R$ 23.360,56</div>
                 </div>
                 <form>
+                    <!-- Informações de entrega -->
                     <p>ENTREGA</p> <select>
                         <option class="text-muted">Padrão (5 a 7 dias) - R$ 7.90</option>
                         <option class="text-muted">Expressa (1 a 2 dias) - R$ 10.90</option>
                     </select>
+                    <!-- Informações de desconto -->
                     <p>CUPOM DE DESCONTO</p> <input id="code" placeholder="Digite o código do cupom">
                 </form>
                 <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+                    <!-- Valor total com frete -->
                     <div class="col">TOTAL</div>
                     <div class="col text-right">R$ 23.368,46</div>
+                    <!-- Botão de finalizar compra -->
                 </div> <button class="btn">FINALIZAR COMPRA</button>
             </div>
         </div>
